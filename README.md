@@ -40,21 +40,21 @@ print (stringVariable[:12])
 # Both of the above statements produce the same result from 0 till 7 th character which is index 0 to 6, spaces within the string are also calculated or taken into account
 OUTPUT -> This is a st
 
-# To print from 12th index to end of the string
+# To print from 12th index to the end of the string
 print (stringVariable[12:])
 OUTPUT -> ring variable
 
-# To print from 12th index to end of the string
+# To print to zeroth index
 print (stringVariable[:0])
 OUTPUT -> empty space
 
-# To print from 12th index to end of the string
+# To print from 0 or zeroth index to 1th
 print (stringVariable[0])
 OUTPUT -> T
 print (stringVariable[:1])
 OUTPUT -> T
 
-# To print from 12th index to end of the string
+# To print from 0th index to -1
 print (stringVariable[:-1])
 OUTPUT -> This is a string variabl
 
