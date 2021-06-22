@@ -1,5 +1,5 @@
 # --Python-Package-Part-3-
-Learning by Implementation: Set and Sequence
+Learning by Implementation: Set and Sequences(SLT)
 
 # Set is an unordered collection of UNIQUE ITEMS
 # Values are unique numbers (interger or decimal), are separated by commas and are placed within CURLY braces.
