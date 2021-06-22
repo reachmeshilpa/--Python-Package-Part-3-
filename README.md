@@ -58,4 +58,6 @@ OUTPUT -> T
 print (stringVariable[:-1])
 OUTPUT -> This is a string variabl
 
+#LIST
+
 
