@@ -18,7 +18,7 @@ print (type (set2))
 OUTPUT -> <class 'set'>
 
 # cannot print any particular element from a set as it is an unordered collection of data, index 2 is not known
-
+#---------------------------------------------------------------------------------------------------
 # SEQUENCES: string, list, tuple
 
 # STRING is a sequence of unicode characters ?? read more
@@ -28,11 +28,82 @@ OUTPUT -> <class 'set'>
 # Strings can be indexed then called as subscripted using [] straight braces
 # The first character of a string has the index 0
 
+# Some functions with a string
+  
+ message = 'codingG Questt' # to count the **full length** print(len(variable)) of the value of the variable
+ print (len (message))
+ OUTPUT-> 13
+
+message = 'codinG Questt'
+ print (message.count (codinG))      # to **count** the length of a **part** of value-> print(variable.count ())
+ OUTPUT-> 6
+
+message = 'codinG Questt'
+ print (message.count (codinG))      # to **count** the number of **same alphabet** in the value-> print(variable.count ('t'))
+ OUTPUT-> 2
+
+
+ message = 'codinG Questt'
+ print (message.lower())
+ OUTPUT-> coding questt
+ 
+ message = 'codinG Questt'
+ print (message))
+ OUTPUT-> CODING QUESTT
+ 
+ # to find a value of a string
+message = 'codinG Questt'
+ print (message.find('codinG'))
+ OUTPUT-> 1                        #output 1 when the word/numeric is found in our variable's value
+ 
+ message = 'codinG Questt'
+ print (message.find('Shilpa'))
+ OUTPUT-> -1                       #output negative 1 when the word/numeric is NOT found in our variable's value
+ 
+ # to replace one value with another
+ message = 'codinG Questt'
+ message.replace('Questt', 'enthusiast')
+ OUTPUT-> will not work, one has to form and print a new variable (working)
+ new_message = message.replace('quest', 'enthusiast')
+ print (new_message)
+ OUTPUT-> codinG enthusiast
+ 
+ # How to print the output in a specific format say Hola, Shilpa. Beinvenido!
+ 1.
+ greeting = 'Hola'
+ name = 'Shilpa'
+ message = greeting + ', ' + name + '.Bienvenido!' #string method
+ print (message)
+ OUTPUT->
+
+2. 
+ greeting = 'Hola'
+ name = 'Shilpa'
+ message = '{}, {}.Welcome!' #string and curly braces method
+ message = 
+ print (message)
+ OUTPUT->
+
+3.
+greeting = 'Hola'
+ name = 'Shilpa'
+ message = greeting + ', ' + name + '.Bienvenido!'.format(greeting, name)
+ print (message)
+ OUTPUT->
+
+4. 
+ greeting = 'Hola'
+ name = 'Shilpa'
+ message = f'{greeting}, {name}. Welcome!'      f'{},{}'.  #f, string and curly braces method
+ print (message)
+ OUTPUT-> Hola, Shilpa. Beinvenido!
+
+
 stringVariable = 'This is a string variable' #single quote for a single line
 print (stringVariable)
 print (stringVariable[0])
 OUTPUT -> T
-
+#-----------------------------------
 # Slicing of a string variable using Index
 
 print (stringVariable[0:12])
