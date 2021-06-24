@@ -1,7 +1,9 @@
 # --Python-Package-Part-3-
 Learning by Implementation: Set and Sequences(SLT)
 
-# Set is an unordered collection of UNIQUE ITEMS
+# Set unordered | unique | {}
+
+# It is an unordered collection of UNIQUE ITEMS
 # Values are unique numbers (interger or decimal), are separated by commas and are placed within CURLY braces.
 set1 = {4,8,10}
 print (set1)
