@@ -105,6 +105,10 @@ stringVariable = 'This is a string variable' #single quote for a single line
 print (stringVariable)
 print (stringVariable[0])
 OUTPUT -> T
+
+#----------------------------
+# REVISIT OUTPUT FORMATTING
+
 #-----------------------------------
 # Slicing of a string variable using Index
 
